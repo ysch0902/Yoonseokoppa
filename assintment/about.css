@@ -1,0 +1,20 @@
+.main{
+    margin-top: -23.5px;
+    height: 1450px;
+    background-color:rgb(251, 206, 177);
+    padding-left: 15%;
+}
+
+.text{
+    padding-top: 95px;
+}
+
+#register {
+    color: gray;
+    margin-left: -20px;
+ }
+
+#register2 {
+    color: gray;
+    margin-left: 18px;
+ }

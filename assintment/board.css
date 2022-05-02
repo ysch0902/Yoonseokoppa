@@ -1,0 +1,72 @@
+.main{
+    margin-top: -27px;
+    height: 1000px;
+    background-color:rgb(251, 206, 177);
+    padding-left: 15%;
+}
+
+#register {
+    color: gray;
+    margin-left: -20px;
+ }
+
+#register2 {
+    color: gray;
+    margin-left: 18px;
+ }
+
+select{
+    width: 30%;
+    height: 30px;
+    margin-left: 25px;
+}
+
+#in{
+    width: 80%;
+    height: 400px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#output{
+    margin-left: 75%;
+    margin-top: 20px;;
+}
+
+#pw{
+    width: 27.5%;
+    height: 25px;
+    margin-top: 15px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+#submit{
+    margin-left: 34.5%;
+    width: 12%;
+    height: 30px;
+    background-color: black;
+    border: 2px solid rgb(251, 206, 177);
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+h2{
+    padding-top: 95px;
+}
+
+#q_a{
+    margin-top: 10px;
+}
+
+#checkbox{
+    margin-top: 5px;
+    margin-left: 13px;
+}
+
+span{
+    font-size: 12px;
+    color: rgb(37, 37, 37);
+}
+

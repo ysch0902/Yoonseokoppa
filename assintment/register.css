@@ -1,0 +1,108 @@
+.register{
+    justify-content: center;
+    background-color: rgb(251, 206, 177);
+    margin-top: -23.5px;
+    height: 790px;
+}
+
+#register {
+    color: gray;
+    margin-right: 20px;
+ }
+
+body{
+    background-color: white;
+}
+
+h1{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+input {
+    height: 35px;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: -8px;
+    margin-left: 0px;
+    border: 1px solid rgb(251, 206, 177);
+    border-radius: 3px;
+    padding-left: 10px;
+    color: rgb(56, 56, 56);
+    background-color: rgb(251, 206, 177);
+    font-size: 12px;
+    outline: none;
+    BORDER-BOTTOM: teal 1px solid;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10pt;
+    
+}
+
+#name{
+    margin-top: 20px;
+}
+
+select {
+    height: 35px;
+    width: 365px;
+    margin-top: 15px;
+    margin-bottom: -8px;
+    margin-left: 0px;
+    border: 1px solid rgb(251, 206, 177);
+    border-radius: 3px;
+    padding-left: 10px;
+    color: gray;
+    background-color: rgb(251, 206, 177);
+    font-size: 12px;
+    BORDER-BOTTOM: teal 1px solid;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 9pt
+}
+
+#tel{
+    width: 240px;
+}
+
+#certify{
+    width: 105px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    height: 520px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 80px;
+    align-items: center;   
+}
+
+#year {
+    width: 121px;
+}
+
+#month {
+    width: 70px;
+    height: 38px;
+}
+
+#date {
+    width: 121px;
+}
+
+#submit {
+    width: 365px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#btHide').on('click', function() {
+                $('#textDiv').hide();
+            });
+        });
+
+    </script>
+</head>
+<body>
+
+    
+    <div class="main">
+        <nav class="nav">
+            <div id="underline"></div>
+                <a><img src="../assintment/img/canvas.png" id="s"></a>
+                <a href="index.html">Home</a>
+                <a href="exhibition.html">Exhibition</a>
+                <a href="board.html">Board</a>
+                <a href="aboutus.html">About</a>
+                <a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+                <a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+                <a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+                <a href="register.html" id="register">Register</a>
+                <a href="login.html" id="register">Login</a>
+        </nav>
+    </div>
+
+    <div class="container">    
+        <div class="today1">
+            <h1>Today's Exhibition</h1>
+            <h2>유연한 경계들</h2>
+            <p>2022.01.12 ~ 2022.02.12</p>
+            <p>갤러리 바톤</p>
+            <a><img src="../assintment/img/recommand.jpg" id="recommand1" onmouseover="btclick()"></a>
+
+                       
+            <div id="textDiv">
+                <p>팝업창</p>
+                <marquee><p id="text1">홈페이지 설명은 about에 / 창 닫아주세요</p></marquee>
+                <marquee><p id="text2">홈페이지 설명은 about에 / 창 닫아주세요</p></marquee>
+                <marquee><p id="text3">홈페이지 설명은 about에 / 창 닫아주세요</p></marquee>
+                <input type="button" id="btHide" value="창 닫기">
+            </div>
+        </div>
+
+
+        <div class="today2">
+            <h1>Today's Exhibition</h1>
+            <h2>샤갈 특별전</h2>
+            <p>2021.11.25 ~ 2022.04.10</p>
+            <p>마이아트 뮤지엄</p>
+            <a><img src="../assintment/img/recommand2.png" id="recommand2" onmouseover="btclick1()"></a>
+        </div>
+
+        <div class="today3">
+            <table>
+                <p id="popular">현재 뜨고 있는 전시회</p>
+                <tr>
+                    <td><img src="../assintment/img/dali.png" id="recommand3" onclick="imageclick()"></td>
+                    <td><img src="../assintment/img/mm.png" id="recommand4" onclick="imageclick()"></td>
+                    <td><img src="../assintment/img/recommand.jpg" id="recommand5" onclick="imageclick()"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    
+   
+    
+    <script src="main.js"></script>
+</body>
+</html>

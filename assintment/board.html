@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="board.css">
+</head>
+<body>
+
+    <form action="board.html"method="get">
+    <div>
+        <nav class="nav">
+            <div id="underline"></div>
+                <a><img src="../image/assignment/canvas.png" id="s"></a>
+                <a href="index.html">Home</a>
+                <a href="exhibition.html">Exhibition</a>
+                <a href="board.html">Board</a>
+                <a href="aboutus.html">About</a>
+                <a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+                <a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+                <a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+                <a href="register.html" id="register">Register</a>
+                <a href="login.html" id="register2">Login</a>
+        </nav>
+    </div>
+    <div class="main">
+        <h2>Question & Answer</h2>
+        <div><span>제목 &nbsp;</span><select id="q_a">
+            <option>후기 등록</option>
+            <option>예매 문의</option>
+            <option>쿠폰 사용처 문의</option>
+        </select></div>
+        <div><textarea id="in" onkeyup="input()"></textarea><div id="output"></div></div>
+        
+        <div><span>비밀글 설정</span><input type="radio" value="1" name="choice" id="checkbox">공개글
+            <input type="radio" value="2" name="choice" id="checkbox">비밀글</div>
+        <div><span>비밀번호</span>&nbsp;<input type="password" id="pw" 
+            placeholder="(영문 대소문자/숫자/특수문자 중 2가지 이상 조합, 8자~12자)"><input type="submit" value="OK" id="submit"></div>
+    </body>
+
+    <script src="main.js"></script>
+</body>
+</html>
