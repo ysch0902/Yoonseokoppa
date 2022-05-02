@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoonstagram</title>
+
+    <style>
+        
+    * {
+        box-sizing: border-box;
+        height: 90%;
+    }
+
+    body{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: left ;
+        margin-top: 90px;
+        margin-left: 300px;
+        padding-bottom: 20%;
+        background-color:rgb(251, 206, 177);
+        background-size: cover;
+        
+    }
+
+    .box {
+        width: 350px;
+        height: 400px;
+        margin-top: -2%;
+        margin-left: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;      
+        
+    }
+
+    .box2 {
+        width: 350px;
+        height: 65px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 385px;
+        margin-left: -350px;
+        border: 1px solid lightgray;
+        font-size: 15px;
+        font-family: '돋음';
+        padding-top: 9px;
+        
+    }
+
+    .box3{
+        width: 350;
+        margin-top: 465px;
+        margin-left: -250px;
+        text-align: center;
+        color: black;
+    }
+    
+    header {
+        font-family: "Lobster";
+        font-size: 20px;
+        font-weight: lighter;
+        padding-top: 12px;
+        display: flex;
+    }
+
+    main {
+        height: 520px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 80px;
+        
+        
+    }
+    input {
+        height: 35px;
+        width: 280px;
+        margin-top: 15px;
+        margin-bottom: -8px;
+        margin-left: 0px;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        padding-left: 10px;
+        color: black;
+        background-color: #fafafa;
+        font-size: 12px;
+    
+    }
+
+    .user-id {        
+        margin-top: 50px;
+        
+    }
+
+    .user-password {        
+        margin-top: 50px;
+    }
+
+    #login {
+        margin-bottom: 0px;
+        margin-top: 20px;
+        
+    }    
+    
+    button {
+        background-color: #0095f6;
+        border: #0095f6;
+        color: white;
+        height: 33px;
+        width: 280px;
+        font-size: 12px;
+        border-radius: 7px; 
+        transition: all 0.2s ease-in;
+        
+    }
+
+    button:disabled {
+        background-color: #c4e1fb;
+    }
+
+    a {        
+        height: 100%;
+        top: 45%;
+        font-size: 15px;
+        color: #365899;
+        font-weight: bold;
+        text-decoration-line: none;
+    }
+
+    #a1 {        
+        top: 55%;
+        font-size: 12px;
+        color: #365899;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    #a2 {
+        color: steelblue;
+    }
+
+    #or{
+        font-size: 13px;
+        text-align: center;
+        color: #7c7474;
+        font-weight: bolder;
+    }
+
+    .div1{
+        margin-top: 2%
+    }
+
+    .div2{
+        margin-top: -50%;
+        text-decoration-line: none;
+    }
+
+    .div3{
+        margin-top: 0%;
+        font-size: 5px;
+        margin-left: 10%;
+        font-weight: bold;
+    }
+
+    .user-location {
+         height: 10px;
+    }
+
+    
+    </style>
+</head>
+
+<body>
+    
+    <div class="box">
+        <header>
+            <h1>Instagram</h1>
+        </header>
+        <main>
+            
+            <div><input id="user-id" type="text" placeholder="전화번호,사용자 이름 또는 이메일"></div>
+            <div><input id="user-password" type="password" placeholder="비밀번호"></div>
+            
+            <div class="div1"><button type="submit" id="login" onclick="location.href='https://www.instagram.com/yooonseokoppa/'" disabled ><b>로그인</b></button></div>
+            
+            <p id=or> 또는  </p>
+            
+            
+        </main>
+
+        <footer ><div class="div2">
+            <img src="../image/facebook.png" width="10">
+            <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_
+            directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient
+            _id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%
+            257B%2522fbLoginKey%2522%253A%25221ym1osk1hqcvqz1gf1o151ekf0bi13ufj4s1p5us58b73ye2j63bmu%2522%252C%2522fbLoginReturnURL%
+            2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_
+            scopes%26locale%3Dko_KR%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D7a498f63-bd47-4a2d-92e0-d2da48e43d69%26tp%3Dunspecified&cancel_
+            url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermission
+            s%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25221ym1osk1hqcvqz1gf1o151ekf0bi13ufj4s1p5us58b73ye2j
+            63bmu%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&
+            locale=ko_KR&pl_dbl=0">facebook으로 로그인</a></div><br>
+            <div class="div3"><a id="a1" href="https://www.instagram.com/accounts/password/reset/">비밀번호를 잊으셨나요?</a></div></footer>
+            
+         </div>
+
+        <div class="box2"><p>계정이 없으신가요?&nbsp;<a id="a2" href="https://www.instagram.com/accounts/emailsignup/">가입하기</a></p></div>
+        <div class="box3">앱을 다운로드 하세요.</div>
+    
+        <script src="../JavaScript/login.js"></script>
+
+</body>
+
+</html>
