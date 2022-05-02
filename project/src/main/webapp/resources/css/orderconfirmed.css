@@ -1,0 +1,463 @@
+@charset "UTF-8";
+.container {
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+body {
+    padding: 20px 120px;
+    margin: 10;
+    font-family: 'Gowun Dodum', sans-serif;
+    background-color: white;
+}
+
+.marking {
+    padding: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.mark_shoppingbag , .mark_order, .mark_ {
+    color: #bbbbbb;
+    font-weight: bold;
+}
+
+.confirm_box {
+    border: 4px black solid;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.confirm_text {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.confirm_box_line {
+    margin-top: 60px;
+    padding-left: 5px;
+    margin-right: 25px;
+    border-top: 2px #bbbbbb solid;
+}
+
+.confirm_section2 {
+    display: flex;
+}
+
+#confirm_order_num {
+   margin-top: 5px;
+}
+#confirm_order_num1 {
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+#confirm_order_num2 {
+    font-size: 16px;
+    color: rgb(212, 78, 0);
+}
+
+.confirm_shopname {
+    border-left: 2px #bbbbbb solid;
+    margin-left: 55%;
+    margin-top: 10px;
+    padding-top: 7px;
+    font-size: 16px;
+    color: #bbbbbb
+}
+
+#confirm_shopname {
+    padding-left: 15px;
+    text-decoration: wavy;
+}
+
+.confirm_info_box {
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.confirm_info {
+    margin-bottom: 15px;
+}
+
+#info1 {
+    padding-bottom: 10px;
+}
+
+#info2 {
+    padding-bottom: 10px;
+}
+
+#info3 {
+    padding-bottom: 10px;
+}
+
+.info_box_line {
+    margin-top: 20px;
+    margin-right: 25px;
+    border-top: 2px #bbbbbb solid;
+    border-bottom: 2px #bbbbbb solid;
+}
+
+.confirm_info_sort {
+    display: flex;
+    height: 50px;
+}
+
+#sort1 {
+    width: 200px;
+    text-align: center;
+    border-bottom: #bbbbbb 2px solid;
+    padding-top: 6px;
+}
+
+#sort2 {
+    width: 600px;
+    text-align: center;
+    border-bottom: #bbbbbb 2px solid;
+    padding-top: 6px;
+}
+
+#sort3 {
+    width: 100px;
+    text-align: center;
+    border-bottom: #bbbbbb 2px solid;
+    padding-top: 6px;
+}
+
+#sort4 {
+    width: 310px;
+    text-align: center;
+    border-bottom: #bbbbbb 2px solid;
+    padding-top: 6px;
+}
+
+.confirm_info_sort1 {
+    display: flex;
+}
+
+#sort1-1 {
+    width: 200px;
+    text-align: center;
+    border: white 2px solid;
+    padding-top: 6px;
+}
+
+#sort_product_img {
+    width: 150px;
+    height: 150px;
+}
+
+#sort2-1 {
+    width: 592px;
+    border: white 2px solid;
+}
+
+#sort_brand {
+    margin-top: 21px;
+    padding-left: 150px;
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+#sort_name {
+    margin-top: 15px;
+    padding-left: 150px;
+    font-size: 24px;
+}
+
+#sort_name_option {
+    font-size: 17px;
+    font-weight: 100;
+}
+
+#sort_price {
+    margin-top: 15px;
+    padding-left: 150px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+#sort_price1 {
+    color: rgb(212, 78, 0);
+    font-weight: bold;
+}
+
+#sort_price2 {
+    color: rgb(212, 78, 0);
+    font-weight: 100;
+}
+
+#sort3-1 {
+    width: 99px;
+    border: white 2px solid;
+}
+
+#sort_amount {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 67px;
+    margin-bottom: 67px;
+}
+
+#sort4-1 {
+    width: 306px;
+    border: white 2px solid;
+}
+
+#sort_status {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 67px;
+    margin-bottom: 67px;
+}
+
+.pay_info_box1 {
+    border: white 2px solid;
+    margin-top: 80px;
+    padding-left: 25px;
+}
+
+.pay_info {
+    border-bottom: white 2px solid;
+    height: 45px;
+    margin-right: 23px;
+}
+
+#pay_info_text {
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pay_info_box2 {
+    border: white 2px solid;
+}
+
+.pay_sheet {
+    border: white 2px solid;
+    display: flex;
+    margin-top: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#pay_sheet1 {
+    border-top: gray 3px solid;
+    border-right: gray 2px solid;
+    border-bottom: gray 2px solid;
+    width: 15%;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#pay_sheet2 {
+    border-top: gray 3px solid;
+    border-bottom: gray 2px solid;
+    width: 85%;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+
+}#pay_sheet3 {
+    border-right: gray 2px solid;
+    border-bottom: gray 2px solid;
+    width: 15%;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#pay_sheet4 {
+    border-bottom: gray 2px solid;
+    width: 85%;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+/*#pay_sheet5 {
+    border-right: gray 2px solid;
+    border-bottom: gray 2px solid;
+    width: 15%;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#pay_sheet6 {
+    border-bottom: gray 2px solid;
+    width: 85%;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}*/
+
+#pay_sheet7 {
+    border-right: gray 2px solid;
+    border-bottom: gray 3px solid;
+    width: 15%;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#pay_sheet8 {
+    border-bottom: gray 3px solid;
+    width: 85%;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.shipping_info_box1 {
+    border: white 2px solid;
+    margin-top: 80px;
+    padding-left: 25px;
+}
+
+.shipping_info {
+    border-bottom: white 2px solid;
+    height: 45px;
+    margin-right: 23px;
+}
+
+#shipping_info_text {
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.shipping_info_box2 {
+    border: white 2px solid;
+}
+
+.shipping_sheet {
+    border: white 2px solid;
+    display: flex;
+    margin-top: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#shipping_sheet1 {
+    border-top: gray 3px solid;
+    border-right: gray 2px solid;
+    border-bottom: gray 2px solid;
+    width: 15%;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#shipping_sheet2 {
+    border-top: gray 3px solid;
+    border-bottom: gray 2px solid;
+    width: 85%;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+
+}#shipping_sheet3 {
+    border-right: gray 2px solid;
+    border-bottom: gray 2px solid;
+    width: 15%;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#shipping_sheet4 {
+    border-bottom: gray 2px solid;
+    width: 85%;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+#shipping_sheet5 {
+    border-right: gray 2px solid;
+    border-bottom: gray 2px solid;
+    width: 15%;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#shipping_sheet6 {
+    border-bottom: gray 2px solid;
+    width: 85%;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+#shipping_sheet7 {
+    border-right: gray 2px solid;
+    border-bottom: gray 3px solid;
+    width: 15%;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#shipping_sheet8 {
+    border-bottom: gray 3px solid;
+    width: 85%;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+#submitbt {
+    background-color: black;
+    color: white;
+    border: 0;
+    outline: 0;
+    width: 700px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit {
+    align-items: center;
+    margin-top: 150px;
+    padding: 1% 22%; 
+}
+
+
+

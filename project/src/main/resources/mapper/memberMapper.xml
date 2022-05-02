@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 회원정보 처리 SQL -->
+<mapper namespace="global.sesoc.web6.dao.MemberMapper">
+
+	<!-- 회원 가입 (끝에 세미콜론 지우기)(parameterType의 값은 mybatis의 alias값과 같아야 함 -->
+	<insert id="insert" parameterType="member">
+		insert into web5_member 
+		values (#{id}, #{password}, #{name}, #{phone}, #{address}, #{email})
+	</insert>
+	
+	<!-- ID로 회원 정보(1명) 조회 -->
+	<select id="select" parameterType="string" resultType="member">
+	<!-- parameterType - 메서드의 파라미터 타입 / resultType - select의 결과를 어떤 객체(Member)에 담아서 리턴시키는지-->
+		select *from web5_member where id = #{id}
+	</select>
+	
+	<!-- 회원정보 수정 -->
+	<update id="update" parameterType="member">
+		update 
+			web5_member 
+		set 
+			name = #{name}
+			, phone = #{phone}
+			, address = #{address}
+			, email = #{email}
+		<if test= "password != null and password != ''">
+			, password = #{password}
+		</if>
+		where 
+			id = #{id}
+	</update>
+	
+	<delete id="delete" parameterType="member">
+		delete from
+			web5_member  
+			name = #{name}
+			, phone = #{phone}
+			, address = #{address}
+			, email = #{email}
+		<if test= "password != null and password != ''">
+			, password = #{password}
+		</if>
+		where 
+			id = #{id}
+	</delete>
+	
+</mapper>
