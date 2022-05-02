@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bacaground3</title>
+  <style>
+
+    h1{
+      font-size: 50px;
+      color: #c5a65d;
+      text-align: left;
+      font-family: '돋음';
+    }  
+    .background-list {
+      list-style:none;
+      margin:0;
+      padding:0;
+     }
+      .background-list li {
+        position: relative;
+        float: left;
+        padding: 0;
+        margin: 10px;
+        overflow: hidden;
+      }
+    .background-list img {
+      margin:0;
+      padding:0;
+      float:left;
+      z-index:5;
+    }
+    .background-list .caption {
+        position: absolute;
+        top: 200px;
+        width: 1920px;
+        height: 1080px;
+        padding-top: 300px;
+        background: rgba(0, 0, 0, 6);
+        opacity: 0;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        z-index: 10;
+    }
+    .background-list li:hover .caption{
+        opacity: 0.7;
+        -moz-transform: translateY(-200px);
+        -ms-transform: translateY(-200px);
+        -o-transform: translateY(-200px);
+        -webkit-transform: translateY(-200px);
+        transform: translateY(-200px);
+    }
+    .background-list .caption h1{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        font-family: '돋음';
+    }
+    .background-list .caption p{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        font-family: '돋음';
+    }
+    body{
+      background-color: black;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>TEAM3 #PROJECT</h1>
+	<div id="container">
+		<ul class="background-list">
+      <li>
+        <img src="../image/assignment_background/seoul.png">
+        <div class="caption">
+          <h1>SEOUL</h1>
+          <p>남산타워</p>
+        </div>
+      </li>
+      <li>
+        <img src="../image/assignment_background/tokyo.png">
+        <div class="caption">
+          <h1>TOKYO</h1>
+          <p>도쿄타워</p>
+        </div>
+      </li>
+      <li>
+        <img src="../image/assignment_background/busan.png">
+        <div class="caption">
+          <h1>BUSAN</h1>
+          <p>광안대교</p>
+        </div>
+      </li>
+      <li>
+        <img src="../image/assignment_background/osaka.png">
+        <div class="caption">
+          <h1>OSAKA</h1>
+          <p>에비스바시</p>
+        </div>
+      </li>
+    </ul>
+	</div>
+</body>
+</html>
