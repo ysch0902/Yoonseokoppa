@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background</title>
+    <style>
+        h1{
+            font-size: 50px;
+            color: pink;
+            font-weight: bold;
+            text-align: center;
+            font-family: '돋음';
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .background{
+            display: flex;
+        }
+
+        .background > div {
+            width: 100%;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 25px;
+            color: #c5a65d;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: white;
+            opacity: 1;
+        }
+
+        .box_background{
+            opacity: 0;
+            z-index: -2;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: opacity 800ms;
+        }
+
+        a:hover + .box_background {
+            opacity: 1;
+        }
+
+        body {
+            background-image: url(../image/assignment_background/earth.jpg);
+        }
+    </style>
+
+</head>
+<body>
+    <h1>TEAM3  #PROJECT</h1>
+
+    <div class="background">
+        
+        <div id="one">
+            <a>서울</a>
+            <span class="box_background">
+                <img src="../image/assignment_background/seoul.png">
+            </span>
+        </div>
+        
+        <div id="two">
+            <a href="">도쿄</a>
+            <span class="box_background">
+                <img src="../image/assignment_background/tokyo.png">
+            </span>
+        </div>
+        
+        <div id="three">
+            <a href="">부산</a>
+            <span class="box_background">
+                <img src="../image/assignment_background/busan.png">
+            </span>
+        </div>
+        
+        <div id="four">
+            <a href="">오사카</a>
+            <span class="box_background">
+                <img src="../image/assignment_background/osaka.png">
+            </span>
+        </div>
+
+    </div>
+
+</body>
+</html>
